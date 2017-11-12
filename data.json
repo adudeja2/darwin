@@ -1,0 +1,109 @@
+{
+    "items": [
+        {
+            "img": "item-1.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 800,
+            "price": 500,
+            "category": "men"
+        },
+        {
+            "img": "item-2.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 8000,
+            "price": 5000,
+            "category": "men"
+        },
+        {
+            "img": "item-3.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 8000,
+            "price": 5040,
+            "category": "men"
+        },
+        {
+            "img": "item-4.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 3000,
+            "price": 2500,
+            "category": "mobile"
+        },
+        {
+            "img": "item-5.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 4999,
+            "price": 2999,
+            "category": "mobile"
+        },
+        {
+            "img": "item-6.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 1999,
+            "price": 1654,
+            "category": "electronic"
+        },
+        {
+            "img": "item-7.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 2500,
+            "price": 1999,
+            "category": "electronic"
+        },
+        {
+            "img": "item-8.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 4999,
+            "price": 3999,
+            "category": "mobile"
+        },
+        {
+            "img": "item-9.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 10999,
+            "price": 9999,
+            "category": "electronic"
+        },
+        {
+            "img": "item-10.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 599,
+            "price": 444,
+            "category": "women"
+        },
+        {
+            "img": "item-11.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 24999,
+            "price": 23211,
+            "category": "women"
+        },
+        {
+            "img": "item-12.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 7999,
+            "price": 6665,
+            "category": "women"
+        },
+        {
+            "img": "item-13.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 5999,
+            "price": 5000,
+            "category": "bag"
+        },
+        {
+            "img": "item-14.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 2900,
+            "price": 2323,
+            "category": "bag"
+        },
+        {
+            "img": "item-15.png",
+            "name": "Men's Hooded Dark Blue T-Shirt",
+            "oldPrice": 499,
+            "price": 343,
+            "category": "bag"
+        }
+    ]
+}

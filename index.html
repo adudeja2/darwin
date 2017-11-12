@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Darwin Labs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/66fd7a25eb.js"></script>
+  <script src="js/custom.js"></script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div class="wrapper">
+	<header class="grad">
+		<div class="top-head">
+			<div class="col-md-2">
+				<img src="images/logo.jpg" class="company-logo"/>
+			</div>
+			<div class="col-md-6 tagline">
+				<span>Trusted By 15000+ Customers across 65+ countries.</span>
+			</div>
+			<div class="col-md-4 text-right margin-top-2">
+				<img src="images/empty-box.png" class="cart" /><span>0 Items Added</span>
+			</div>
+		</div>
+	</header>
+<div class="col-md-12 bg">
+	<div class="col-md-2 sidebar">
+		<section class="fiter-tag text-center">
+			<div>Filters</div>
+		</section>
+		<section class="category-tag text-left">
+			<div> <i class="fa fa-sort-desc" aria-hidden="true"></i> Category</div>
+			<ul class="category-list">
+				<li id="men" class="category-item" onClick="filterByCategory('men');">Men's Fashion </li>
+				<li id="women" class="category-item" onClick="filterByCategory('women');">Women's Fashion </li>
+				<li id="mobile" class="category-item" onClick="filterByCategory('mobile');">Mobiles </li>
+				<li id="electronic" class="category-item" onClick="filterByCategory('electronic');">Electronics </li>
+				<li id="bag" class="category-item" onClick="filterByCategory('bag');">Backpacks </li>
+				<li class="clear" onClick="clearCategoryFilter();">Clear </li>
+			</ul>
+		</section>
+		<section class="price-tag text-left">
+			<div> <i class="fa fa-sort-desc" aria-hidden="true"></i> price</div>
+			<ul class="price-list">
+				<li id="0999" class="price-item" onClick="filterByPrice(0, 999);">&#8377; 0 - &#8377; 999 </li>
+				<li id="9994999" class="price-item" onClick="filterByPrice(999, 4999);">&#8377; 1000 - &#8377; 4999 </li>
+				<li id="49999999" class="price-item" onClick="filterByPrice(4999, 9999);">&#8377; 5000 - &#8377; 9999 </li>
+				<li id="9999100000" class="price-item" onClick="filterByPrice(9999, 100000);">Above &#8377; 10000 </li>
+				<li class="clear" onClick="clearPriceFilter();">Clear </li>
+			</ul>
+		</section>
+	</div>
+	<div class="col-md-10">
+		<div id="products" class="col-md-12">
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
